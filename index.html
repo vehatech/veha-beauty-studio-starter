@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Veha Beauty Studio</title>
+  <meta name="description" content="Veha Beauty Studio, Chennai: facials, hair styling, nail care and makeup.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair:opsz,wght@5..1200,300..900&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Veha Beauty Studio home">
+      <img src="assets/images/logo.png" alt="Veha Beauty Studio" width="165" height="83">
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <a class="nav__link is-active" href="#home">Home<img class="nav__underline" src="assets/icons/nav-underline.svg" alt="" width="94.0225" height="5"></a>
+      <a class="nav__link" href="#about">About<img class="nav__underline" src="assets/icons/nav-underline.svg" alt="" width="94.0225" height="5"></a>
+      <a class="nav__link" href="#services">Services<img class="nav__underline" src="assets/icons/nav-underline.svg" alt="" width="94.0225" height="5"></a>
+      <a class="nav__link" href="#gallery">Gallery<img class="nav__underline" src="assets/icons/nav-underline.svg" alt="" width="94.0225" height="5"></a>
+      <a class="nav__link" href="#contact">Contact<img class="nav__underline" src="assets/icons/nav-underline.svg" alt="" width="94.0225" height="5"></a>
+    </nav>
+
+    <a class="btn btn--primary btn--header" href="tel:1231231231">Call Now</a>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <img class="hero__bg" src="assets/images/hero-bg.png" alt="">
+      <div class="hero__content">
+        <p class="eyebrow eyebrow--rose">Welcome to Veha Beauty Studio</p>
+        <h1 class="hero__title">
+          <span class="text-ink">Feel beautiful and </span>
+          <span>confident every day</span>
+        </h1>
+        <p class="lead">Your beauty, our passion. Enjoy professional beauty services designed to help you look and feel your best</p>
+        <a class="btn btn--secondary btn--lg" href="#services">Explore Services</a>
+      </div>
+      <div class="hero__media">
+        <img src="assets/images/hero-model.png" alt="Woman in a pink silk saree with gold jewellery and jasmine in her hair">
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="about__media">
+        <img src="assets/images/about.png" alt="A makeup artist doing a client's bridal makeup in the studio">
+      </div>
+      <div class="about__content">
+        <p class="eyebrow">About Veha Beauty Studio</p>
+        <h2 class="section-title">Your Beauty, Our Passion</h2>
+        <p class="lead lead--lg">At Veha Beauty Studio, we believe every person deserves to feel beautiful and confident. We offer personalized beauty services in a comfortable and welcoming environment.</p>
+        <a class="btn btn--secondary" href="#services">View Services</a>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <h2 class="section-title">Our Beauty Services</h2>
+      <p class="lead services__intro">Discover our beauty services designed to help you look and feel your best</p>
+
+      <ul class="services__grid">
+        <li class="service-card">
+          <span class="service-card__icon"><img src="assets/icons/wand-magic-sparkles.svg" alt="" width="53" height="53"></span>
+          <h3 class="service-card__title">Facials</h3>
+          <p class="service-card__text">Refresh your skin &amp; enjoy a healthy, radiant glow</p>
+        </li>
+        <li class="service-card">
+          <span class="service-card__icon"><img src="assets/icons/scissors-and-comb.svg" alt="" width="56" height="56"></span>
+          <h3 class="service-card__title">Hair Styling</h3>
+          <p class="service-card__text">Find the perfect hairstyle for your look and occasion</p>
+        </li>
+        <li class="service-card">
+          <span class="service-card__icon"><img src="assets/icons/nail-polish.svg" alt="" width="57" height="57"></span>
+          <h3 class="service-card__title">Nail Care</h3>
+          <p class="service-card__text">Keep your nails neat, beautiful, and well groomed</p>
+        </li>
+        <li class="service-card">
+          <span class="service-card__icon"><img src="assets/icons/lipstick.svg" alt="" width="65" height="65"></span>
+          <h3 class="service-card__title">Makeup</h3>
+          <p class="service-card__text">Complete your look with makeup for special occasions</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+      <div class="gallery__header">
+        <div>
+          <h2 class="section-title text-ink">Our Beauty Gallery</h2>
+          <p class="lead gallery__intro">Explore our beauty work, treatments, and studio experience.</p>
+        </div>
+        <a class="btn btn--secondary btn--lg btn--wide" href="tel:1231231231">Call Us Today</a>
+      </div>
+
+      <ul class="gallery__grid">
+        <li class="gallery__item"><img src="assets/images/gallery-1.jpg" alt="Woman in a pink saree with traditional gold jewellery" loading="lazy"></li>
+        <li class="gallery__item"><img src="assets/images/gallery-2.jpg" alt="Client receiving a facial treatment" loading="lazy"></li>
+        <li class="gallery__item"><img src="assets/images/gallery-3.jpg" alt="Close-up of manicured pink nails" loading="lazy"></li>
+        <li class="gallery__item"><img src="assets/images/gallery-4.jpg" alt="Braided bridal hairstyle decorated with flowers" loading="lazy"></li>
+      </ul>
+    </section>
+
+    <!-- Why -->
+    <section class="why">
+      <div class="why__content">
+        <p class="eyebrow">Why Veha Beauty Studio</p>
+        <h2 class="section-title why__title">Beauty Care That Makes You Feel Special</h2>
+
+        <ul class="why__features">
+          <li class="feature">
+            <span class="icon-circle icon-circle--lg"><img src="assets/icons/hand-holding-heart.svg" alt="" width="36" height="32"></span>
+            Personalized Care
+          </li>
+          <li class="feature">
+            <span class="icon-circle icon-circle--lg"><img src="assets/icons/sparkles.svg" alt="" width="34" height="34"></span>
+            Attention to Detail
+          </li>
+          <li class="feature">
+            <span class="icon-circle icon-circle--lg"><img src="assets/icons/flower.svg" alt="" width="37" height="37"></span>
+            Relaxing Experience
+          </li>
+          <li class="feature">
+            <span class="icon-circle icon-circle--lg"><img src="assets/icons/mirror.svg" alt="" width="30.5" height="33.6667"></span>
+            Quality Products
+          </li>
+        </ul>
+      </div>
+      <div class="why__media">
+        <img src="assets/images/why.jpg" alt="Skincare bottles, lipsticks and makeup brushes arranged on a table" loading="lazy">
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="contact__card">
+        <div class="contact__info">
+          <h2 class="section-title">Let's Make You Glow</h2>
+          <p class="lead contact__intro">Ready for your beauty appointment? Get in touch with us today</p>
+
+          <ul class="contact__list">
+            <li>
+              <span class="icon-circle"><img src="assets/icons/phone.svg" alt="" width="37" height="37"></span>
+              <a href="tel:1231231231">1231231231</a>
+            </li>
+            <li>
+              <span class="icon-circle"><img src="assets/icons/envelope.svg" alt="" width="36" height="36"></span>
+              <a href="mailto:vehabeautystudio@gmail.com">vehabeautystudio@gmail.com</a>
+            </li>
+            <li>
+              <span class="icon-circle"><img src="assets/icons/location.svg" alt="" width="16" height="28"></span>
+              <span>123, gandhi street, chennai</span>
+            </li>
+            <li>
+              <span class="icon-circle"><img src="assets/icons/clock.svg" alt="" width="37" height="37"></span>
+              <span>Mon-Sat: 9.30AM-6.30PM</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact__visit">
+          <h3 class="contact__visit-title">Visit Us</h3>
+          <a class="contact__map" href="https://www.google.com/maps/search/?api=1&amp;query=123%20gandhi%20street%2C%20chennai" target="_blank" rel="noopener">
+            <img src="assets/images/map.png" alt="Map showing the studio location (opens Google Maps)" loading="lazy">
+          </a>
+          <ul class="socials">
+            <li><a href="#" aria-label="Instagram"><img src="assets/icons/instagram.svg" alt="" width="35" height="35"></a></li>
+            <li><a href="#" aria-label="WhatsApp"><img src="assets/icons/whatsapp.svg" alt="" width="42" height="42"></a></li>
+            <li><a href="#" aria-label="YouTube"><img src="assets/icons/youtube.svg" alt="" width="39" height="39"></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="site-footer__top">
+      <a class="logo logo--footer" href="#home" aria-label="Veha Beauty Studio home">
+        <img src="assets/images/logo.png" alt="Veha Beauty Studio" width="165" height="83">
+      </a>
+      <nav class="nav nav--footer" aria-label="Footer">
+        <a class="nav__link" href="#home">Home</a>
+        <a class="nav__link" href="#about">About</a>
+        <a class="nav__link" href="#services">Services</a>
+        <a class="nav__link" href="#gallery">Gallery</a>
+        <a class="nav__link" href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn--primary btn--lg btn--wide" href="tel:1231231231">Call Us Today</a>
+    </div>
+    <p class="site-footer__legal">2026 veha beauty studio, All rights reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
